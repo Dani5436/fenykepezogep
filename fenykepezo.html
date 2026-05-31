@@ -1,14 +1,134 @@
+<!-- fenykepezo.html -->
 <!DOCTYPE html>
 <html lang="hu">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fényképezőgépek</title>
+
+    <!-- Bootstrap -->
     <link rel="stylesheet" href="bootstrap.css">
+
+    <!-- Saját stílus -->
     <link rel="stylesheet" href="fenykepezo.css">
 </head>
 <body>
-    <div class="container">
-        <!-- Itt készítse el az oldal szerkezetét Bootstrap osztályokkal -->
+
+<div class="container"> <!-- Ez itt konténer -->
+
+    <!-- Fejléc -->
+    <div class="row">
+        <div class="col-md-12 gradient text-white p-3">
+            <h1>FÉNYKÉPEZŐGÉPEK</h1>
+        </div>
+    </div> <!-- Első sor vége -->
+    <!-- Tartalom -->
+    <div class="row"> <!-- Második sor kezdete -->
+
+        <!-- Bal oszlop -->
+        <div class="col-md-6"> <!-- Második sor vége -->
+
+            <h2>Története</h2>
+
+            <p>
+                A fényképezőgép hosszú folyamat eredménye: a 
+                <a href="https://en.wikipedia.org/wiki/Camera_obscura" target="_blank">
+                    camera obscura
+                </a>
+                elvét már az ókorban ismerték, a rögzített képek készítése azonban csak a 19. században vált lehetővé.
+                A technika fejlődésével a fényképezőgépek egyre kisebbek, pontosabbak és könnyebben használhatóak lettek.
+            </p>
+
+            <p>
+                Az analóg korszakban a filmes gépek tették lehetővé különféle felvételek készítését, míg a digitális 
+                fényképezőgépek megjelenésével a képek azonnal visszanézhetővé váltak. A fényképezőgépek ma már a 
+                mindennapi élet részei, a mobiltelefonok és a tükör nélküli rendszerek fejlődése révén.
+            </p>
+
+            <p>
+                A különböző géptípusok eltérő célokra készültek: a kompakt modellek egyszerű használatot kínálnak, 
+                a tükörreflexes és tükör nélküli gépek pedig nagyobb kontrollt biztosítanak a fotós számára.
+            </p>
+
+            <!-- Nagy kép -->
+            <img src="fenykepezo.webp" alt="Fényképezőgép" class="w-100">
+
+            <h2 class="mt-3">A fényképezőgépek megjelenési formái</h2>
+
+            <!-- 3 kép -->
+            <div class="row">
+
+                <div class="col-md-4 text-center">
+                    <a href="c1.jpg" target="_blank">
+                        <img src="c1.jpg" alt="Analóg fényképezőgép" class="img-thumbnail w-100">
+                    </a>
+
+                    <div class="kepfelirat">
+                        Analóg fényképezőgép
+                    </div>
+                </div>
+
+                <div class="col-md-4 text-center">
+                    <a href="c2.jpg" target="_blank">
+                        <img src="c2.jpg" alt="Digitális tükörreflexes" class="img-thumbnail w-100">
+                    </a>
+
+                    <div class="kepfelirat">
+                        Digitális tükörreflexes
+                    </div>
+                </div>
+
+                <div class="col-md-4 text-center">
+                    <a href="c3.jpg" target="_blank">
+                        <img src="c3.jpg" alt="Instant fényképezőgép" class="img-thumbnail w-100">
+                    </a>
+
+                    <div class="kepfelirat">
+                        Instant fényképezőgép
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Jobb oszlop -->
+        <div class="col-md-6 jobboszlop">
+
+            <h2>A fényképezőgépek alkatrészei</h2>
+
+            <img src="alkatreszek.png" alt="Alkatrészek" class="w-100 border">
+
+            <ol>
+                <li>Kiadógomb</li>
+                <li>Kontroll gombok</li>
+                <li>Üzemmódválasztó tárcsa</li>
+                <li>Kereső</li>
+                <li>Vaku</li>
+                <li>Fókuszgyűrű</li>
+                <li>Zoomgyűrű</li>
+            </ol>
+
+        </div>
+
     </div>
+
+    <!-- Lábléc -->
+    <div class="row">
+        <div class="col-md-12 gradient text-white text-center footer">
+
+            <p>
+                A honlapot <strong>Saját Neved</strong> készítette 2026-ban.
+            </p>
+
+            <p>
+                &copy; Minden jog fenntartva!
+            </p>
+
+        </div>
+    </div>
+
+</div>
+
 </body>
 </html>

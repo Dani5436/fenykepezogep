@@ -1,12 +1,54 @@
-.gradient
-{
-    background: rgb(34,34,34);
-    background: linear-gradient(90deg, rgba(34,34,34,1) 0%, rgba(95,122,140,0.85) 60%, rgba(95,122,140,0) 100%);
+/* fenykepezo.css */
+
+body{
+    background-color: #f2f2f2;
 }
 
-h1
-{
-    padding: 30px;
-    text-transform: uppercase;
-    text-shadow: 2px 2px 4px black;
+/* Fejléc és lábléc */
+.gradient{
+    background: linear-gradient(to right, #222, #9aa9b8);
+}
+
+/* h1 */
+h1{
+    font-size: 60px;
+}
+
+/* h2 */
+h2{
+    margin-top: 30px;
+    font-size: 24px;
+}
+
+/* Jobb oszlop */
+.jobboszlop{
+    background-color: #333;
+    color: white;
+}
+
+/* Alkatrész kép */
+.border{
+    border: 6px solid white !important;
+    margin-bottom: 20px;
+}
+
+/* Lista */
+ol li{
+    line-height: 2;
+}
+
+/* Képfelirat */
+.kepfelirat{
+    text-align: center;
+    margin-top: 12px;
+    font-size: 10px;
+    font-weight: bold;
+    color: #444;
+}
+
+/* Lábléc */
+.footer{
+    margin-top: 20px;
+    padding: 10px;
+    border-top: 10px dotted black;
 }
